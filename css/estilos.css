@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
 
+body{
+ 
+  background-image: url("../img/p1.jpg");
+
+}
 .item h2{
   position: absolute;
   margin-top: 320px;
@@ -25,7 +30,7 @@
 #imagen {
 position: absolute;
 z-index: 1001;
-margin-left: 40px;
+margin-left: 150px;
 margin-top: 51px;
 
 
@@ -39,12 +44,14 @@ margin-top: 51px;
 }
 
 .estilo{
-	position: fixed;
+	/*position: fixed;*/
 	z-index: 1000;
+    margin-left: 130px;
 	background-color: rgba(0,0,0,0.5);
 	text-align: center;
-	width: 100%;
+    width: 81%;
 	border:none;
+
 
 	
 	
@@ -54,20 +61,91 @@ margin-top: 51px;
 	background: black;
 	color: white;
 }
-.mision{
-	background: #000a82;
-	color: white;
-	opacity: 0.7;
-}
+
+
 
 
 section#nosotros{
-	 width: 100%;
-  min-height: 350px;
+	
+  min-height: 250px;
+
+ background-color: white;
+  /*bbackground-image: url("../img/fondo.png");*/
 
 }
 
-section#nosotros div {
+.nosotros h2{
 	text-align: center;
-	margin-top: 60px;
+	color: #102444;
+	font-family: 'Roboto', sans-serif;
 }
+
+.nosotros h5{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.nosotros2 h5{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+#separacion{
+	height: 50px;
+
+}
+.nosotros{
+    background-color: white;
+	margin-top: -405px;
+	width: 70%;
+	min-height: -300px;
+
+}
+
+.droga img{
+	margin-left: 233px;
+}
+
+section#mision{
+ /*bbackground-image: url("../img/fondo.png");*/
+ background-color: black;
+ min-height: 300px;
+
+
+}
+
+.mision{
+	margin-top: -30px;
+	
+
+		min-height: 100px;
+}
+
+section#nosotross{
+	min-height: 380px;
+	background-color: white;
+
+}
+
+.nosotros2{
+	background-color: white;
+	margin-top: -110px;
+	background-color: white;
+		width: 70%;
+
+}
+
+.mv{
+	text-align: center;
+	margin-top: 70px;
+}
+
+.mv h5, h2{
+	text-align: center;
+	margin-top: 70px;
+	color: white;
+}
+
+
