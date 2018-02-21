@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Karla');
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #fcaf14;
+  color: #75aaff;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color: #fcaf14;
+  color: #75aaff;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  color: #fcaf14;
+  color: #75aaff;
 }
 :-moz-placeholder { /* Firefox 18- */
-  color: #fcaf14;
+  color: #75aaff;
 }
 *{
 	margin: 0px;
@@ -23,6 +23,7 @@ body{
  
 }
 .fondologin{
+
   
 }
 @keyframes animatedBackground {
@@ -70,7 +71,7 @@ form fieldset input{
   width: 100%;
   height: 30px;
   border: none;
-  border-bottom: 1px solid #fcaf14;
+  border-bottom: 1px solid #75aaff;
   border-radius: 5px;
   outline-color: transparent;
   font-size: 1.1rem;
@@ -82,7 +83,12 @@ form fieldset input{
   background-color: rgba(0,0,0,0.25);
   margin-left: 525px;
   margin-top: 110px;
-  height: 500px;
+  height: 600px;
   width: 500px;
   border-radius: 10px;
+}
+
+.imagenl{
+  padding-left: 165px;
+
 }
