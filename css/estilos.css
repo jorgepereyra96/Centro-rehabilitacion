@@ -2,7 +2,7 @@
 
 body{
  
-  background-image: url("../img/p1.jpg");
+  background-image: url("../img/fondito.jpg");
 
 }
 .item h2{
@@ -13,7 +13,7 @@ body{
  margin-left:100px;
  font-family: 'Roboto', sans-serif;
  font-size: 5rem;
- background-color: rgba(0,0,0,0.7);
+ background-color: rgba(0,0,0,0.5);
 
 }
 .item h3{
@@ -24,6 +24,7 @@ body{
  margin-left: 180px;
  font-family: 'Roboto', sans-serif;
  font-size: 2.3rem;
+
 
 
 }
@@ -52,18 +53,14 @@ margin-top: 51px;
     width: 81%;
 	border:none;
 
-
-	
 	
 }
 
 .estilo li a{
 	background: black;
 	color: white;
+	
 }
-
-
-
 
 section#nosotros{
 	
@@ -76,19 +73,21 @@ section#nosotros{
 
 .nosotros h2{
 	text-align: center;
-	color: #102444;
+	color: black;
 	font-family: 'Roboto', sans-serif;
 }
 
 .nosotros h5{
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	color: #231707;
 
 }
 
 .nosotros2 h5{
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	color: #231707;
 
 
 }
@@ -110,27 +109,23 @@ section#nosotros{
 
 section#mision{
  /*bbackground-image: url("../img/fondo.png");*/
- background-color: black;
- min-height: 300px;
+   background: black;
+ min-height: 375px;
 
 
 }
 
 .mision{
 	margin-top: -30px;
-	
-
 		min-height: 100px;
 }
 
 section#nosotross{
 	min-height: 380px;
-	background-color: white;
-
+   background-color: white;
 }
 
 .nosotros2{
-	background-color: white;
 	margin-top: -110px;
 	background-color: white;
 		width: 70%;
@@ -139,13 +134,111 @@ section#nosotross{
 
 .mv{
 	text-align: center;
-	margin-top: 70px;
+	margin-top: -20px;
 }
 
 .mv h5, h2{
 	text-align: center;
 	margin-top: 70px;
 	color: white;
+		font-family: 'Roboto', sans-serif;
+}
+
+section#instalaciones{
+	min-height: -30px;
+	background-color: white;
+
+}
+section#video{
+	min-height: 450px;
+	background-color: black;
+}
+section#s{
+	min-height: 15px;
+	background-color: white;
 }
 
 
+section#instalaciones h2{
+	color: black;
+	font-family: 'Roboto', sans-serif;
+}
+
+.inst{
+	background-color: white;
+	min-height: 160px;
+	width: 94%;
+	margin-top: -40px;
+   margin-left: 36px;
+}
+
+ .img3{
+
+  margin-top: 77px;
+}
+
+
+.img4{
+ 
+  margin-left: 253px;
+  margin-top: 23px;
+}
+
+.img5{
+  margin-top: -160px;
+  margin-left: 497px;
+}
+
+
+.img6{
+  margin-top: -1px;
+  margin-left: 763px;
+}
+
+.t1{
+ width: 20%;
+ margin-left:20px;
+ margin-top: 30px;
+}
+
+.t2{
+ width: 20%;
+ margin-top: -244px;
+ margin-left:280px;
+}
+
+.t3{
+ width: 20%;
+ margin-top: -150px;
+ margin-left:530px;
+}
+
+.t4{
+ width: 20%;
+ margin-top: -245px;
+ margin-left:  785px;
+}
+
+.t1 h6{
+ font-family: 'Roboto', sans-serif;
+}
+
+section#contacto{
+	min-height: 200px;
+	background-color: white;
+}
+
+
+#imagenn{
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
+.linea{
+	background-color: blue;
+	height: 175px;
+    width: 1px;
+    margin-top: -160px;
+    margin-left: 160px;
+
+}
